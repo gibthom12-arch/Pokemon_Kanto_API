@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #dddddd;
+}
+
+#map {
+    position: absolute;
+    top: 10%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.inputItems {
+    display: flex;
+    position: absolute;
+    z-index: 3;
+    width: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
